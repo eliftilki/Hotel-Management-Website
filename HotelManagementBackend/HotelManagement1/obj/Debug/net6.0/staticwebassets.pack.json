@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Sude Nur\\Desktop\\HotelManagement1\\HotelManagement1\\HotelManagement1\\wwwroot\\uploads\\oda1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\oda1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sude Nur\\Desktop\\HotelManagement1\\HotelManagement1\\HotelManagement1\\wwwroot\\uploads\\oda2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\oda2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sude Nur\\Desktop\\HotelManagement1\\HotelManagement1\\HotelManagement1\\wwwroot\\uploads\\oda3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\oda3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sude Nur\\Desktop\\HotelManagement1\\HotelManagement1\\HotelManagement1\\wwwroot\\uploads\\oda4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\oda4.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HotelManagement1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HotelManagement1.props",
+      "PackagePath": "build\\HotelManagement1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelManagement1.props",
+      "PackagePath": "buildMultiTargeting\\HotelManagement1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HotelManagement1.props",
+      "PackagePath": "buildTransitive\\HotelManagement1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
