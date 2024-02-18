@@ -1,0 +1,231 @@
+
+.site-navbar {
+    position: fixed;
+    top: 0;
+    left: 300px; 
+    width: 100%;
+    height: 100%;
+    background-color: #faf7f7;
+    transition: left 0.3s ease;
+    margin: auto;
+  }
+  
+  .site-navbar.open {
+    left: 0; 
+    display: block;
+  }
+  
+  .site-navbar nav {
+    padding: 20px;
+    margin-top: 15%;
+  }
+  
+  .site-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .site-navbar li {
+    margin-bottom: 15px;
+  }
+  .nav-link{
+    color: #333;
+    font-size: 40px;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+    
+  }
+  .nav-link:hover{
+    color: #f79055;
+    text-decoration: none;
+  }
+  
+  .site-menu-toggle {
+    cursor: pointer;
+    display: none;
+    top: 0;
+  float: right;
+  width: 40px;
+  height: 45px;
+  position: relative;
+  margin: 0px auto;
+  z-index: 200; 
+  }
+  
+  
+  
+
+  @media (max-width: 768px) {
+    .site-menu-toggle {
+      display: block;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+  
+    .site-menu-toggle span {
+      display: block;
+      background-color: #fff;
+      height: 2px;
+      width: 25px;
+      margin-bottom: 5px;
+    }
+  } 
+  
+  /* customNavbar.css */
+
+/* .site-navbar {
+  background-color: #942d2d; /* Navbar arka plan rengi 
+  padding: 20px; /* Navbar iç boşluğu 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Navbar gölgesi 
+}
+
+.site-navbar nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.site-navbar nav ul li {
+  margin-right: 20px; /* Menü öğeleri arasındaki boşluk 
+}
+
+.site-navbar nav ul li:last-child {
+  margin-right: 0; /* Son menü öğesinin sağ boşluğu 
+}
+
+.site-navbar nav ul li a {
+  text-decoration: none;
+  color: #333; /* Menü öğe metni rengi 
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Renk değişimi için geçiş efekti 
+}
+
+.site-navbar nav ul li a:hover {
+  color: #ff4500; /* Mouse hover üzerindeki renk *
+}
+
+/* Logo stilini düzenlemek için *
+.site-navbar .site-logo a {
+  text-decoration: none;
+  color: #333; /* Logo rengi *
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.site-navbar .site-logo a:hover {
+  color: #ff4500; /* Mouse hover üzerindeki logo rengi *
+}
+
+/* Toggle butonu için *
+.site-navbar .site-menu-toggle {
+  cursor: pointer;
+}
+
+/* Açık menü durumu için *
+.site-navbar .site-menu-open nav ul {
+  display: block;
+} */
+/* customNavbar.css */
+
+/* .site-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+  z-index: 1000;
+  transition: 0.5s;
+}
+
+.site-navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-navbar .site-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.site-navbar .site-menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.site-navbar .site-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-navbar .site-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.site-navbar .site-menu ul li {
+  margin: 0 15px;
+}
+
+.site-navbar .site-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.site-navbar .site-menu ul li a:hover {
+  color: #ffcc00;
+}
+
+.site-navbar.open {
+  display: block; /* Menü açık olduğunda göster *
+}
+@media (max-width: 768px) {
+  .site-navbar .site-menu {
+    display: none;
+  }
+
+  .site-navbar .site-menu-toggle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .site-navbar.open {
+    background-color: #333;
+  }
+
+  .site-navbar.open .site-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    border-top: 1px solid #fff;
+  }
+
+  .site-navbar.open .site-menu ul {
+    flex-direction: column;
+  }
+
+  .site-navbar.open .site-menu ul li {
+    margin: 15px 0;
+  }
+} */
